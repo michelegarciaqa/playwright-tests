@@ -9,8 +9,8 @@ To get started with Playwright and this project, follow these steps:
 1. **Clone the Repository**
 
    \`\`\`
-   git clone https://github.com/michelegarciaqa/playwright-ryanair.git
-   cd playwright-ryanair
+   git clone https://github.com/michelegarciaqa/playwright-tests.git
+   cd playwright-tests
    \`\`\`
 
 2. **Install Dependencies**
