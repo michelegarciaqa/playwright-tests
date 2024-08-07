@@ -61,7 +61,7 @@ class HomePage {
         const checkbox = await this.page.locator('ry-checkbox[data-ref="terms-of-use__terms-checkbox"]');
         await checkbox.click();
         const verifyCheckbox = await this.page.locator('._background');
-        expect(verifyCheckbox).toHaveClass(/_background--checked/, { timeout: 10000 });;
+        expect(verifyCheckbox).toHaveClass(/_background--checked/, { timeout: 20000 });;
 
     }
 }

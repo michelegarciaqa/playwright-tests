@@ -1,4 +1,4 @@
-# playwright-ryanair
+# playwright
 
 This project is a Playwright example using the Ryanair website to explore the capabilities and features of the Playwright testing framework from an educational perspective.
 
@@ -8,7 +8,7 @@ To get started with Playwright and this project, follow these steps:
 
 1. **Clone the Repository**
 
-   \`\`\`sh
+   \`\`\`
    git clone https://github.com/michelegarciaqa/playwright-ryanair.git
    cd playwright-ryanair
    \`\`\`
@@ -19,7 +19,7 @@ To get started with Playwright and this project, follow these steps:
 
    Install the project dependencies using npm:
 
-   \`\`\`sh
+   \`\`\`
    npm install
    \`\`\`
 
@@ -27,7 +27,7 @@ To get started with Playwright and this project, follow these steps:
 
    Playwright needs to install browser binaries. You can do this with the following command:
 
-   \`\`\`sh
+   \`\`\`
    npx playwright install --with-deps
    \`\`\`
 
@@ -35,13 +35,13 @@ To get started with Playwright and this project, follow these steps:
 
    You can now run the Playwright tests using the command:
 
-   \`\`\`sh
+   \`\`\`
    npx playwright test
    \`\`\`
 
    If you want to use the Playwright Test Runner\'s UI, you can start it with:
 
-   \`\`\`sh
+   \`\`\`
    npx playwright --ui
    \`\`\`
 
